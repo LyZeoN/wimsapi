@@ -502,7 +502,7 @@ class WimsAPI():
                               of exercices to handle at the same time. Do not forget to call
                               buildexos() to compile them at the end (defaults to False)"""
         params = {**self.params, **{
-                'job': 'deluser',
+                'job': 'delexo',
                 'code': code if code else random_code(),
                 'qclass': qclass,
                 'rclass': rclass,
